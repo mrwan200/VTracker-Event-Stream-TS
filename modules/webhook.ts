@@ -43,7 +43,7 @@ class WebhookDiscord {
             author: {
                 name: channel.title,
                 url: `https://www.youtube.com/channel/${channel.id}`,
-                icon: channel.avatar
+                icon_url: channel.avatar
             },
             title: video.title,
             url: `https://www.youtube.com/watch?v=${video.id}`,
