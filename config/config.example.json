@@ -1,0 +1,8 @@
+{
+    "token": "TOKEN_HERE",
+    "pathEvent": "event",
+    "webhook": {
+        "stream": "WEBHOOK_DISCORD_STREAM_HERE",
+        "upload": "WEBHOOK_DISCORD_UPLOAD_HERE"
+    }
+}
