@@ -82,7 +82,7 @@ class WebhookDiscord {
 
         }else if(video.status === status.upcoming && video.type === type.live){
            suffix_description.description_suffix = `ได้แอบตั้งการถ่ายทอดสด`;
-           suffix_description.fields = `"เริ่มถ่ายทอดสดเวลา`;
+           suffix_description.fields = `เริ่มถ่ายทอดสดเวลา`;
            suffix_description.datetime = video.broadcastStartAt
 
         }else if(video.status === status.upcoming && video.type === type.premiere){

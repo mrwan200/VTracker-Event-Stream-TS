@@ -1,5 +1,5 @@
 # VTracker Video Event Stream (TypeScript)
-VTracker is tracking VTuber ovverworld using event stream.
+Fetch VTracker video with using event stream.
 
 ## Setup
 ```
