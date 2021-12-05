@@ -1,5 +1,9 @@
 # VTracker Video Event Stream (TypeScript)
+<<<<<<< HEAD
 Fetch VTracker video with using event stream.
+=======
+VTracker is tracking VTuber overworld using event stream.
+>>>>>>> 0c06bc1bea00c8ba495240a3fe0a21a702c65687
 
 ## Setup
 ```
