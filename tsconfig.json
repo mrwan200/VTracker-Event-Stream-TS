@@ -1,6 +1,10 @@
 {
     "compilerOptions": {
         "resolveJsonModule": true,
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "target": "esnext",
+        "module": "commonjs",
+        "outDir": "dist"
     }
 }
