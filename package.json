@@ -2,12 +2,10 @@
   "name": "ytnotify",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/app.js",
-
+  "main": "index.js",
   "scripts": {
-    "dev": "ts-node app.ts",
-    "start": "node dist/app.js",
-    "build": "tsc"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node app.ts"
   },
   "author": "",
   "license": "ISC",

@@ -1,6 +1,8 @@
 # VTracker Video Event Stream (TypeScript)
 
 Fetch VTracker video with using event stream.
+VTracker is tracking VTuber overworld using event stream.
+
 
 ## Setup
 ```
@@ -9,11 +11,7 @@ Fetch VTracker video with using event stream.
 
     // Config file in config/config.example.json
     // Change name config.example.json to config.json
-    // If you want test. you can run script this.
-    yarn dev
-
-    // Before you want use in production. Please compile TypeScript to JavaScript
-    yarn build
+    // Then run 
     yarn start
 ```
 
