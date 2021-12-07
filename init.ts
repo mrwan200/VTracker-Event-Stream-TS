@@ -28,11 +28,11 @@ eventStream.on("init", (data) => {
 });
 
 eventStream.on("event", (data) => {
-  if (!data.changesKey) {
+  if (!data.changesKey || data.changesKey.includes('status'))
     Webhook.send(data.video, data.channel);
-    console.info(`[${dayjs().format("YYYY-MM-DD HH:mm:ss")}] ${data.channel.title} was ${data.video.type} in video name ${data.video.title} [${data.video.id}]`);
-  }
+  
 
+  console.info(`[${dayjs().format("YYYY-MM-DD HH:mm:ss")}] ${data.channel.title} was ${data.video.type} in video name ${data.video.title} [${data.video.id}]`);
   fs.writeFileSync(config.pathEvent, data.eventId);
 });
 
